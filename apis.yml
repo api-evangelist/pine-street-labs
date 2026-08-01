@@ -1,8 +1,22 @@
 aid: pine-street-labs
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pine-street-labs.png
 name: Pine Street Labs
-description: 'Pine Street Labs is a company surfaced as a portfolio company of polychain and added to
-  the API Evangelist network as a stub for enrichment. Sector: infrastructure. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Pine Street Labs is a crypto / blockchain infrastructure company surfaced as a portfolio
+  company of Polychain and added to the API Evangelist network as a stub for enrichment. Sector:
+  infrastructure. Enrichment probes of pinestreetlabs.com found no live developer or API surface: the
+  domain currently serves unrelated content and publishes no OpenAPI, SDKs, docs, or security programs.
+  This profile is retained as a lead pending a verified developer surface.'
 url: https://raw.githubusercontent.com/api-evangelist/pine-street-labs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +26,13 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Infrastructure
+- Blockchain
+- Cryptocurrency
+- Digital Assets
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +40,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/pine-street-labs-domain-security.yml
 - type: Website
   url: https://pinestreetlabs.com
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
